@@ -58,27 +58,27 @@ for app in "${apps[@]}"; do
 done
 
 # Restore Hyperland configuration
-cp -R $backupDirectory/.config/hypr ~/.config/
-cp -R $backupDirectory/.config/waybar ~/.config/
-cp -R $backupDirectory/.config/wlogout ~/.config/
+cp -R .config/hypr ~/.config/
+cp -R .config/waybar ~/.config/
+cp -R .config/wlogout ~/.config/
 
 # Restore terminal configuration
-cp -R $backupDirectory/.config/kitty ~/.config/
+cp -R .config/kitty ~/.config/
 
 # Restore SSH keys
-cp -R $backupDirectory/.ssh ~/
+cp -R .ssh ~/
 
 # Restore miscellaneous configuration files
-cp -R $backupDirectory/.bashrc ~/
-cp -R $backupDirectory/.vimrc ~/
-cp -R $backupDirectory/.zshrc ~/
-cp -R $backupDirectory/.zsh_history ~/
-cp -R $backupDirectory/.config/remmina ~/.config/
-cp -R $backupDirectory/.oh-my-zsh ~/
-cp -R $backupDirectory/powerlevel10k ~/
+cp -R .bashrc ~/
+cp -R .vimrc ~/
+cp -R .zshrc ~/
+cp -R .zsh_history ~/
+cp -R .config/remmina ~/.config/
+cp -R .oh-my-zsh ~/
+cp -R powerlevel10k ~/
 
 # Restore browser configuration
-cp -R $backupDirectory/.mozilla ~/
+cp -R .mozilla ~/
 
 echo "Configuration files have been restored to their original locations."
 
