@@ -14,6 +14,15 @@ window#waybar.hidden {
 	opacity: 0.2;
 }
 
+#hyprland-window {
+	margin-top: 6px;
+	margin-left: 12px;
+	font-size: 4px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	background: #161320;
+	transition: none;
+}
 #window {
 	margin-top: 6px;
 	padding-left: 10px;
